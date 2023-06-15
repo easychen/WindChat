@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.dot-bg {
+  background: url('/bg.png') repeat;
+  &.move
+  {
+    animation: moveDown 5s linear infinite;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -48px 48px;
+  }
+}
