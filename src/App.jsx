@@ -17,6 +17,7 @@ function App() {
         // avatarUser={<img src="https://cdn.discordapp.com/attachments/933565701162168371/1083498424097308692/iod_realistic_cartoon_black_and_white_face_line_art_minimalist__f95984c2-60a7-4f52-8d9e-82674b9d8c37.png" className="w-8 h-8 rounded-full" />}
         model={'gpt-3.5-turbo-0613'}
         onLoading={value => setLoading(value)}
+        defaultText={'来首唐诗'}
       />
     </div>
     </div>

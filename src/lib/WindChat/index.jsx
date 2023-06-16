@@ -43,6 +43,7 @@ export default function ChatDeer(props) {
     const search_database_name = props.searchDatabaseName || false;
     const clean_btn = props.cleanBtn || <AiOutlineClear color="#666" size={24} className="mr-2 cursor-pointer"/>;
     const settings_btn = props.settingsBtn || <IoSettingsOutline color="#666" size={24} className="mr-2 cursor-pointer"/>;
+    const default_text = props.defaultText || '';
 
     const avatar_user = props.avatarUser || false;
     const avatar_assistant = props.avatarAssistant || false;
@@ -50,7 +51,7 @@ export default function ChatDeer(props) {
     
     let maxId = 1;
     const [messages, setMessages] = useState([]);
-    const [inputText, setInputText] = useState('');
+    const [inputText, setInputText] = useState(default_text);
     const [showSettings, setShowSettings] = useState(false);
     const [apiKey, setApiKey] = useState(key);
 
