@@ -2,6 +2,12 @@
 
 可以通过 TailwindCSS 高度定制的 React Chatbot starter。
 
+## License
+
+MIT
+
+## 可定制参数
+
 
 | 参数 | 含义 | 默认值 |
 | --- | --- | --- |
