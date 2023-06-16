@@ -12,6 +12,34 @@ https://github.com/easychen/WindChat/assets/1294760/961fd7b5-d027-4efd-86e0-b0b3
 
 MIT
 
+## 开发流程
+
+### 克隆到本地并安装依赖
+
+```
+git clone https://github.com/easychen/WindChat.git
+cd WindChat
+yarn install
+```
+
+### 启动开发环境
+
+```
+yarn dev
+```
+
+可修改 `src/App.jsx` 中 `WindChat` 组件的属性进行定制
+
+### 编译输出
+
+```
+yarn build
+```
+
+将 `dist` 目录部署到 web 目录即可访问使用。
+
+
+
 ## 可定制参数
 
 
