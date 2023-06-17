@@ -2,10 +2,17 @@
 
 可以通过 TailwindCSS 高度定制的 React Chatbot starter。
 
-
+## 快速预览
 
 https://github.com/easychen/WindChat/assets/1294760/961fd7b5-d027-4efd-86e0-b0b30bf85e7e
 
+## 使用教程
+
+登录后，可免费观看（仅限本节）
+
+<https://stack.ftqq.com/section/show/294>
+
+![image](https://github.com/easychen/WindChat/assets/1294760/d7b45770-3edc-411f-bd2f-6e16c42f386d)
 
 
 ## License
